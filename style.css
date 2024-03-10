@@ -1,0 +1,176 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 100ms ease-in-out;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+/* End of CSS Reset */
+
+
+/* Variables */
+:root {
+    --home-blue-clr: #404eed;
+}
+
+
+
+/* Navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+    margin: 0;
+    background-color: var(--home-blue-clr);
+
+
+
+
+}
+
+.nav-list {
+    
+    list-style: none;
+    text-decoration: none;
+    margin: 1rem 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 1rem;
+    color: #ffffff;
+}
+
+
+.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: .7rem .8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 250ms;
+    
+
+   
+   
+
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: #404eed;
+    transition: 100ms ease-in-out;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+
+}
+/*End of Navbar*/
+
+/* Main Section */
+.content {
+    font-family: "Anton", sans-serif;
+    background-color: var(--home-blue-clr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    height: 70vh;
+    z-index: 0;
+
+
+}
+
+.text-content {
+    margin-top: 5rem;
+    overflow-x: hidden;
+    
+    width: 60%;
+  
+}
+
+.content h1 {
+    color: #ffffff;
+    font-size: 5rem;
+  
+    
+}
+
+.content p {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-family: san serif;
+
+    
+
+}
+
+
+.btn-container {
+    margin-top: 4rem;
+  
+
+}
+.btn-container button {
+    margin: 0 1rem;
+    padding: 1.1rem 3rem;
+    font-weight: 100;
+    font-size: 18px;
+
+}
+
+.open-in-browser {
+    background-color: rgb(42, 41, 41);
+    color: white;
+}
+
+.open-in-browser:hover {
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.svg {
+    position: absolute;
+    right: -167px;
+    bottom: 0px;
+    z-index: -1;
+
+}
+
+.second {
+    position: absolute;
+    left: -160px;
+    bottom: 0px;
+    z-index: -1;
+    width: 600px;
+
+
+
+}
+
+
